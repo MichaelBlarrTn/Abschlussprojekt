@@ -95,3 +95,4 @@ if st.sidebar.button("Vorhersage"):
         st.table(imp_df.reset_index(drop=True))
     except Exception as e:
         st.write("Feature-Importances konnten nicht berechnet werden:", e)
+    
