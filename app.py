@@ -56,7 +56,7 @@ if st.sidebar.button("Vorhersage"):
 
     st.subheader("Ergebnis")
     st.metric("Wahrscheinlichkeit für 'Mac empfohlen' (%)", f"{pred_proba * 100:.1f}%")
-    st.write("Empfehlung:", "✅ Mac empfohlen" if pred == 1 else "❌ Mac nicht empfohlen")
+    st.write("Empfehlung:", " Mac empfohlen" if pred == 1 else " Mac nicht empfohlen")
 
     # Feature Importances (Permutation)
     try:
